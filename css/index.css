@@ -57,11 +57,11 @@ div.info>div.name {
 }
 
 .photo {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     background-image: url(../img/q.jpg);
-    background-size: 30vw;
-    background-position-x: -3.8vw;
+    background-size: 20vw;
+    background-position-x: -2.5vw;
     border-radius: 50%;
     float: left;
     margin-right: 20px;
