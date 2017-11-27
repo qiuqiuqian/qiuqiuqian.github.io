@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imglist {
+    text-align: center;
+}
+
+.imglist>img {
+    width: 30%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+.imglist>img:hover {
+    box-shadow: 2px 2px 5px 1px rgb(80, 80, 80);
+    width: 32%;
+}
+
+.container {
+    padding: 25px;
+    background-color: rgba(167, 85, 18, 0.2);
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    margin-left: 10px;
+    float: left;
+}
+
+div.info>div {
+    margin-top: 10px;
+}
+
+div.info>div.name {
+    margin-top: 0px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.name {
+    color: rgba(0, 167, 250, 0.36);
+}
+
+.header {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.photo {
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/q.jpg);
+    background-size: 30vw;
+    background-position-x: -3.8vw;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+.btn-pink {
+    background-color: rgba(239, 11, 144, 0.6);
+    color: #fff;
+}
+
+.btn-red {
+    background-color: rgba(239, 11, 11, 0.6);
+    color: #fff;
+}
+
+.btn-green {
+    background-color: #1d9d74;
+    color: #fff;
+}
+
+.btn-1 {
+    padding: 1px 13px;
+    font-size: 20px;
+}
+
+.btn-2 {
+    padding: 3px 10px;
+    font-size: 15px;
+}
+
+.btn-3 {
+    padding: 4px 6px;
+    font-size: 10px;
+}
+
+.btn-green:hover {
+    background-color: #167f5e;
+}
+
+.btn-pink:hover {
+    background-color: #DB54C5;
+}
+
+.btn-red:hover {
+    background-color: #E42B0A
+}
